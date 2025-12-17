@@ -21,7 +21,7 @@ The model produces meaningful predictions based on input features.
 - Use larger real-world datasets
 - Improve feature engineering
 - Address bias and ethical considerations
-  CODE-
+## Code
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -56,3 +56,4 @@ y_pred = model.predict(X_test)
 # Accuracy
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Model Accuracy: {accuracy:.2f}")
+
